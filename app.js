@@ -26,9 +26,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
     // origin: 'http://localhost:8081',
-    // origin: 'http://localhost:3000',
+    origin: 'http://localhost:3000',
     // origin: 'https://grade-react.herokuapp.com/',
-    origin: 'https://177.42.233.22',
   })
 );
 
